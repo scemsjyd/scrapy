@@ -10,7 +10,7 @@ import json
 class TutorialPipeline(object):
 
     def __init__(self):
-        self.f = open("data.json", "w")
+        self.f = open("data1.json", "w")
 
     def process_item(self, item, spider):
         # 使用管道处理item
